@@ -1,0 +1,72 @@
+{
+  "Appearance":{
+    "type":"object",
+    "properties":{
+    "daytime_syntax_theme":{
+        "title": "Daytime Theme (Syntax)",
+        "description": "What syntax theme should I use during daylight?",
+        "type": "string",
+        "default": "atom-light-syntax"
+      },
+    "daytime_ui_theme":{
+        "title": "Daytime Theme (UI)",
+        "description": "What UI theme should I use during daylight?",
+        "type": "string",
+        "default": "atom-light-ui"
+      },
+    "nighttime_syntax_theme":{
+        "title": "Nighttime Theme (Syntax)",
+        "description": "What syntax theme should I use during nighttime?",
+        "type": "string",
+        "default": "atom-dark-syntax"
+      },
+      "nighttime_ui_theme":{
+          "title": "Nighttime Theme (UI)",
+          "description": "What syntax theme should I use during nighttime?",
+          "type": "string",
+          "default": "atom-dark-ui"
+        }
+      }
+    },
+    "Location":{
+      "title": "Fallback Location",
+      "type":"object",
+      "properties":{
+        "latitude":{
+          "title": "Latitude",
+          "description": "What GPS latitude should be used to determine daylight?",
+          "type": "number",
+          "default":"-31.9830799"
+        },
+        "longitude":{
+          "title": "Longitude",
+          "description": "What GPS longitude should be used to determine daylight?",
+          "type": "number",
+          "default":"115.8171658"
+        },
+        "update":{
+          "title": "Auto-update",
+          "description": "Should your default location be auto-updated after successful geolocation?",
+          "default": "false",
+          "type": "boolean"
+        }
+      }
+    },
+    "Activation":{
+      "type":"object",
+      "properties":{
+        "configured":{
+          "title": "Configured",
+          "description": "Is the plugin configured? Tick when options are set.",
+          "default": "false",
+          "type": "boolean"
+        },
+        "interval":{
+          "title": "Refresh rate",
+          "description": "How often in minutes should the theme refresh?",
+          "default": "5",
+          "type": "integer"
+        }
+      }
+    }
+}
