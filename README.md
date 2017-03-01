@@ -16,7 +16,7 @@ To this when the harsh light of sun breaks the day! Automatically!
 
 ![Light Theme](https://cloud.githubusercontent.com/assets/9172090/23461361/9de94f28-fec4-11e6-9617-0b03863f50b3.png)
 
-### Themes in screenshots
+#### Themes in screenshots
 
 Dark UI: [Nucleus Dark UI](https://atom.io/themes/nucleus-dark-ui)
 
@@ -25,3 +25,9 @@ Dark Syntax: [One Dark Syntax](https://atom.io/themes/one-dark-syntax)
 Light UI: [One Light UI](https://atom.io/themes/one-light-ui)
 
 Light Syntax: [One Light Syntax](https://atom.io/themes/one-light-syntax)
+
+#### Plugins in screenshots
+
+[Minimap](https://atom.io/packages/minimap)
+
+[File icons](https://atom.io/packages/file-icons)
