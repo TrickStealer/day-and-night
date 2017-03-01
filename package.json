@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "Automatically change theme during day and night",
   "keywords": [],
-  "repository": "https://github.com/atom/day-and-night",
+  "repository": "https://github.com/jknlsn/day-and-night",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
