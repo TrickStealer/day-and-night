@@ -1,7 +1,7 @@
 {
   "name": "day-and-night",
   "main": "./lib/day-and-night",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Automatically change theme during day and night",
   "keywords": [],
   "repository": "https://github.com/jknlsn/day-and-night",
